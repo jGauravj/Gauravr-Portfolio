@@ -40,7 +40,7 @@ const HeroSection = () => {
           </div>
           <div className="glow absolute top-[30%] right-1/2 -z-10"></div>
         </div>
-        <div className=" absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
+        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
           <MovingBorderBtn />
         </div>
       </div>
