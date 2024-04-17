@@ -5,7 +5,7 @@ import Title from "./Title";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
+    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className=" space-y-10 text-center lg:text-left z-20">
         <h1 className="text-4xl lg:text-7xl font-bold ">
           Nice to meet you! 🤙
@@ -41,7 +41,9 @@ const HeroSection = () => {
           <div className="glow absolute top-[30%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
-          <MovingBorderBtn />
+          <a href="https://drive.google.com/uc?export=download&id=1TFiYrzCyXIekTChTsMhB_UF-YyOBBeot">
+            <MovingBorderBtn />
+          </a>
         </div>
       </div>
     </div>
