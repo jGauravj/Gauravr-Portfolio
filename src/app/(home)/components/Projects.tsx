@@ -33,7 +33,7 @@ const Projects = () => {
     {
       title: "Portfolio",
       tech: [SiHtml5, SiCss3, SiNextdotjs, SiTailwindcss, SiTypescript],
-      link: "https://jgauravj.github.io/jranimated.github.io/",
+      link: "https://gauravjangir.vercel.app/",
       cover: "/portfolio.png",
       background: "bg-[#f43f5e]",
     },
@@ -50,7 +50,7 @@ const Projects = () => {
     <div className="py-10 p-5 sm:p-0">
       <Title
         text="Projects 🎨"
-        className="flex flex-col items-center justify-center rotate-6 cursor-pointer hover:rotate-0 transition-all duration-500"
+        className="flex flex-col items-center justify-center -rotate-6 cursor-pointer hover:rotate-0 transition-all duration-500"
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">

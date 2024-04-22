@@ -3,6 +3,7 @@
 import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { TbBrandVscode } from "react-icons/tb";
 import {
   SiBootstrap,
   SiCss3,
@@ -13,6 +14,8 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiSass,
+  SiGit,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -46,12 +49,25 @@ const Skills = () => {
       Icon: SiTailwindcss,
     },
     {
+      text: "SASS & SCSS",
+      Icon: SiSass,
+    },
+    {
       text: "Bootstrap",
       Icon: SiBootstrap,
     },
     {
       text: "Figma",
       Icon: SiFigma,
+    },
+
+    {
+      text: "Git",
+      Icon: SiGit,
+    },
+    {
+      text: "Vs Code",
+      Icon: TbBrandVscode,
     },
   ];
 
