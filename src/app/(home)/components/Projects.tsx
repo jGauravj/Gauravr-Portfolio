@@ -16,6 +16,14 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 const Projects = () => {
   const projects = [
     {
+      title: "U.S Engineering",
+      discreption: "Freelance Project right now in Development phase",
+      tech: [SiHtml5, SiCss3, SiNextdotjs, SiTypescript, SiTailwindcss],
+      link: "https://usengineering.vercel.app/",
+      cover: "/usengineering.png",
+      background: "bg-emerald-500",
+    },
+    {
       title: "Foodzzz",
       discreption: "For Live preview use ALLOW CORS Chrome Extenstion",
       tech: [SiHtml5, SiCss3, SiReact, SiTailwindcss],
