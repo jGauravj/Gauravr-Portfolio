@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="glow absolute top-[30%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 z-20">
-          <a href="https://drive.google.com/uc?export=download&id=1xajbAy27SnuVAuv7qPJ9mpYsz700UMch">
+          <a href="https://drive.google.com/uc?export=download&id=1QKgHyE5GioF-Jc-ayHvCdcxjdj1onnpR">
             <MovingBorderBtn />
           </a>
         </div>
@@ -51,6 +51,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
-
